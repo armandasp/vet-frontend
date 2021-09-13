@@ -1,0 +1,138 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+  padding-top: 0.5rem;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 8rem;
+  cursor: pointer;
+}
+header nav a {
+  color: orange;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+header nav a:hover {
+  color: rgb(134, 88, 1);
+  font-weight: bold;
+  transition: 0.2s;
+}
+main {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.button {
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+.orange {
+  background: orange;
+  color: white;
+}
+.orange:hover {
+  background: rgb(201, 130, 0);
+  transition: 0.2s;
+}
+.white {
+  border: 1px solid orange;
+  color: orange;
+}
+.white:hover {
+  background: rgb(211, 211, 211);
+  transition: 0.2s;
+}
+#blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+#blocks .block {
+  width: calc(33.33% - 0.75rem);
+  margin-right: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+}
+#blocks .block:nth-child(3n) {
+  margin-right: 0;
+}
+#blocks .block p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  padding: 0;
+}
+#blocks .block .info {
+  margin-bottom: 1.5rem;
+}
+#blocks .block .info p {
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 0.3rem;
+  padding: 0;
+}
+#blocks .block .buttons {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+#blocks .block .buttons .button {
+  margin-right: 0.5rem;
+}
+#blocks .block .buttons .button:last-child {
+  margin-right: 0;
+}
+footer {
+  margin: 2rem 0;
+  text-align: center;
+}
+form .field {
+  margin-bottom: 0.8rem;
+}
+form legend {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+form .field input {
+  width: 30%;
+  padding: 0.5rem;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+form .buttons {
+  display: flex;
+  margin-top: 2rem;
+}
+form .buttons a {
+  margin-right: 0.5rem;
+}
+button {
+  border: none;
+}

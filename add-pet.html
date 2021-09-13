@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="//use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img
+          src="http://www.petras.slekys.com/images/projects/vetbee.png"
+          alt="vetbee"
+        />
+        <nav>
+          <a href="index.html">Pets</a>
+          <a href="">Medications</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <section class="name">
+          <h1>Add Your Pet</h1>
+        </section>
+        <section class="form">
+          <form name="add">
+            <div class="field">
+              <legend>Pets name</legend>
+              <input type="text" id="name" name="name" placeholder="Bartas" />
+            </div>
+
+            <div class="field">
+              <legend>Pets date of birth</legend>
+              <input type="date" id="dob" name="dob" value="2020-01-01" />
+            </div>
+
+            <div class="field">
+              <legend>Owners Email</legend>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@email.com"
+              />
+            </div>
+            <div class="buttons">
+              <a href="index.html" class="button white"> cancel </a>
+              <button type="submit" class="button orange">ADD</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer> Copyright &copy; VetBee 2018. All rights reserved. </footer>
+    <script src="add-pet.js"></script>
+  </body>
+</html>
