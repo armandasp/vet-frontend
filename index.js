@@ -19,7 +19,7 @@ function displayBlocks(data) {
     btnWhite.classList.add("button", "white");
     buttons.append(btnOrange, btnWhite);
     name.textContent = item.name;
-    date.textContent = item.dob;
+    date.textContent = new Date(item.dob).toLocaleDateString("lt");
     email.textContent = item.client_email;
     btnOrange.textContent = "VIEW LOG";
     btnWhite.textContent = "DELETE";
